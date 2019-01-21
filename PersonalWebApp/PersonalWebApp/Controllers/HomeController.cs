@@ -20,7 +20,7 @@ namespace PersonalWebApp.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Portfolio()
         {
             ViewBag.Message = "Your contact page.";
 
