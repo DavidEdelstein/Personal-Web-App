@@ -15,14 +15,14 @@ namespace PersonalWebApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Personal History:";
 
             return View();
         }
 
         public ActionResult Portfolio()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Projects completed and currently in progress:";
 
             return View();
         }
