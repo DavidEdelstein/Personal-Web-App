@@ -22,7 +22,8 @@ namespace PersonalWebApp.Controllers
 
         public ActionResult Portfolio()
         {
-            ViewBag.Message = "Projects completed and currently in progress:";
+            ViewBag.Message1 = "Projects completed and currently in progress:";
+            ViewBag.Message2 = "Technical Skills:";
 
             return View();
         }
